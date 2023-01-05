@@ -41,4 +41,15 @@ async function main(): Promise<void> {
     const data = JSON.parse(body);
 
     // Get the first video in the list
-    const firstVideo = data.items[
+    const firstVideo = data.items[0];
+    if (firstVideo) {
+      // Download the first video
+      const videoId = firstVideo.id.videoId;
+      await downloadVideo(videoId);
+    } else {
+      console.log('No videos found.');
+    }
+  });
+}
+
+main();
