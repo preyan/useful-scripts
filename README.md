@@ -6,7 +6,7 @@ This repository contains a collection of useful scripts that can be used for var
 
 * `random-image-downloader.ts`: A simple script in TypeScript to download randon images from [prnt.sc](https://prnt.sc) and saves them to the current working directory.
 
-* `...`: Additional scripts as needed.
+* `...` to be updated. But I am `LAZY`
 
 ## Usage
 
